@@ -12,6 +12,7 @@ class Rtdb {
     protected $dbname = 'recipe';
     protected $ingredientKey = 'Ingredients';
     protected $instructionsKey = 'How-to-make';
+
     static $searchResult = [];
     
     // Get the list from the front-end
@@ -104,7 +105,7 @@ class Rtdb {
 
 $recipe = new Rtdb();
 
-    // print_r($recipe->getRecipeRange(0,['Spice']));
+    // print_r($recipe->getRecipeRange(0,['Sugar']));
 
     // $recipe->search(['Spice']);
 
